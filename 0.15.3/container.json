@@ -1,0 +1,14 @@
+{
+	"project": "wplib",
+	"name": "mkdocs",
+	"version": "0.15.3",
+	"majorversion": "0.15",
+	"latest": "",
+	"network": "--network wplibbox",
+	"ports": "-p 8000:8000",
+	"volumes": "-v $PWD:/mkdocs",
+	"restart": "--restart no",
+	"args": "",
+	"env": "MKDOCS_VERSION"
+}
+
