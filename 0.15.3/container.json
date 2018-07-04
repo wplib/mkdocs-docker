@@ -6,7 +6,7 @@
 	"latest": "",
 	"network": "--network wplibbox",
 	"ports": "-p 8000:8000",
-	"volumes": "-v $PWD:/mkdocs",
+	"volumes": "-v /projects/wplib.box:/mkdocs",
 	"restart": "--restart no",
 	"args": "",
 	"env": "MKDOCS_VERSION"
